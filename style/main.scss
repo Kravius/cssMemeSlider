@@ -1,0 +1,64 @@
+@import "/style/scss/normalize";
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	// background-color: #f0f0f0;
+}
+
+.slider {
+	display: flex;
+	// overflow: hidden;
+	// position: relative;
+}
+
+.slide {
+	flex: 0 0 100%;
+	opacity: 0;
+	// transition: opacity 0.5s;
+}
+
+.slide img {
+	width: 100%;
+	height: auto;
+}
+
+.caption {
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 10px;
+}
+
+.controls {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+input[type="radio"] {
+	// display: none;
+}
+
+input[type="radio"]:checked + .slider .slide {
+	opacity: 1;
+}
+
+.slider {
+}
+.slide {
+}
+.slide1 {
+}
+.caption {
+}
+.slide2 {
+}
+.slide3 {
+}
+.controls {
+}
